@@ -90,7 +90,12 @@ class WordPress_Reader_Assistant {
 
 		$html = '<ul class="wra-toc-list">';
 
-		foreach ( $headings as $heading ) {
+		foreach ( $headings as $i => $heading ) {
+			// Add separator before h3 headings (except the first one)
+			if ( $heading['level'] === 3 && $i > 0 ) {
+				$html .= '<li class="wra-toc-separator"></li>';
+			}
+
 			$indent_class = 'wra-toc-level-' . $heading['level'];
 			$html         .= '<li class="wra-toc-item ' . $indent_class . '">';
 			$html         .= '<a href="#' . esc_attr( $heading['id'] ) . '" class="wra-toc-link">' . wp_kses_post( $heading['text'] ) . '</a>';

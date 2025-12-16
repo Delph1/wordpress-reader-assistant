@@ -128,6 +128,13 @@
 	text-decoration: underline;
 }
 
+.wra-toc-separator {
+	margin: 8px 0;
+	height: 1px;
+	background: #e0e0e0;
+	list-style: none;
+}
+
 .wra-no-headings {
 	margin: 12px 0;
 	padding: 12px;
