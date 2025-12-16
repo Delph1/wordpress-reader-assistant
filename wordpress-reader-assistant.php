@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/Delph1/wordpress-reader-assistant
  * Description: A floating reader assistant that makes it easier to navigate long articles with a collapsible table of contents and search functionality.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Andreas Galistel
  * License: Apache 2.0
  * Text Domain: wordpress-reader-assistant
  * Domain Path: /languages
