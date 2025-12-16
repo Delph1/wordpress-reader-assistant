@@ -113,7 +113,7 @@ class WordPress_Reader_Assistant {
 		?>
 		<div class="wra-container">
 			<div class="wra-header">
-				<h3 class="wra-title"><?php esc_html_e( 'Contents', 'wordpress-reader-assistant' ); ?></h3>
+				<h3 class="wra-title"><?php esc_html_e( 'Innehåll', 'wordpress-reader-assistant' ); ?></h3>
 				<button class="wra-toggle-btn" aria-label="<?php esc_attr_e( 'Toggle reader assistant', 'wordpress-reader-assistant' ); ?>">
 					<span class="wra-toggle-icon">−</span>
 				</button>
